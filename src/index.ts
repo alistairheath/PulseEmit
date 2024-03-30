@@ -80,4 +80,11 @@ export class PulseEmitter {
       }
     });
   }
+
+  public stopAllEvents() {
+    this.events.forEach((event) => {
+      clearInterval(event.config.interval);
+      event.config.status = 'stopped';
+    });
+  }
 };
