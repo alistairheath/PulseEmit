@@ -50,6 +50,12 @@ class PulseEmitter {
             }
         });
     }
+    stopAllEvents() {
+        this.events.forEach((event) => {
+            clearInterval(event.config.interval);
+            event.config.status = 'stopped';
+        });
+    }
 }
 exports.PulseEmitter = PulseEmitter;
 ;
