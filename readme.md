@@ -2,8 +2,12 @@
 The purpose of this library is to provide a simple way to schedule recurring events in Javascript using the EventEmitter pattern. It is desigend to provdie more information and structure than a simple setInterval, but less than a full blown cron job.
 
 ## 🚀 Getting Started
-Get started by install the package by using npm with the '''npm i pulse-emit''' command.
-The import into your project the PulseEmitter object and any types (if using Typescript).
+Get started by installing the package with npm.
+```
+npm install pulse-emit
+```
+
+Then import into your project the PulseEmitter object and any types (if using Typescript).
 
 ```typescript
 //Import the PusleEmitter Library
