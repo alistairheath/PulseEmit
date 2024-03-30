@@ -1,3 +1,5 @@
+import EventEmitter from "events";
+
 export type EventStatus = 'active' | 'inactive' | 'stopped';
 
 export type EventDetails = {
@@ -20,3 +22,14 @@ export interface EventFullDetails extends EventDetails {
 
 export type EventArray = Array<EventDetails>;
 type EventKernel = Array<EventFullDetails>;
+
+export declare class PulseEmitter {
+  listen: EventEmitter;
+  events: EventKernel;
+
+  constructor(events: EventArray);
+
+  addEvent(ev: EventDetails) : void;
+  stopEvent(eventName: string) : void;
+  stopAllEvents() : void;
+}
