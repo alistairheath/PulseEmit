@@ -1,6 +1,6 @@
 {
   "name": "pulse-emit",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Streamlined approach to emitting evwnts at regular intervals.",
   "main": "dist/index.js",
   "typings": "types/index.d.ts",
