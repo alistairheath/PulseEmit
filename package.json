@@ -1,0 +1,36 @@
+{
+  "name": "pulse-emit",
+  "version": "1.0.0",
+  "description": "Streamlined approach to emitting evwnts at regular intervals.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node dist/test.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alistairheath/PulseEmit.git"
+  },
+  "keywords": [
+    "event",
+    "interval",
+    "timeout",
+    "regular",
+    "trigger",
+    "pulse",
+    "emit"
+  ],
+  "author": "Alistair Heath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alistairheath/PulseEmit/issues"
+  },
+  "homepage": "https://github.com/alistairheath/PulseEmit#readme",
+  "devDependencies": {
+    "@types/node": "^20.12.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "events": "^3.3.0"
+  }
+}
