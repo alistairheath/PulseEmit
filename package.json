@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "Streamlined approach to emitting evwnts at regular intervals.",
   "main": "dist/index.js",
+  "typings": "types/index.d.ts",
   "scripts": {
     "test": "node dist/test.js",
     "build": "tsc"
