@@ -1,5 +1,6 @@
 //Import the PusleEmitter Library
-import { EventArray, EventDetails, PulseEmitter } from "./index";
+import { PulseEmitter } from "./index";
+import { EventArray, EventDetails } from '../types';
 
 //Define the Events
 const events: EventArray = [

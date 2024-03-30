@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PulseEmitter = void 0;
 const events_1 = require("events");
-;
 class PulseEmitter {
     constructor(events) {
         this.listen = new events_1.EventEmitter();
